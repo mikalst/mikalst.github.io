@@ -27,7 +27,7 @@ url: "https://blog.jeehaw.com" # the base hostname & protocol for your site, e.g
 github_username:  mikalst
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
