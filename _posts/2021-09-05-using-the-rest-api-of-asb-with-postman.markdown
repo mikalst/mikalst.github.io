@@ -37,7 +37,7 @@ az servicebus namespace authorization-rule create --resource-group rg-asb-test -
 
 Then we can list the keys and connections string of the authorization rule we just created.
 {% highlight bash %}
-az servicebus queue authorization-rule keys list --name myauthorule --namespace-name sb-asb-test  --resource-group rg-asb-test
+az servicebus namespace authorization-rule keys list --name myauthorule --namespace-name sb-asb-test  --resource-group rg-asb-test
 {% endhighlight %}
 This gives us something of the form
 ```
