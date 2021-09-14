@@ -14,7 +14,6 @@ categories: jekyll update
 
 This post assumes that you have 
 - [An active Azure account](https://azure.microsoft.com/en-us/free/)
-
 - [Installed the Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - [Installed `kubectl` ](https://kubernetes.io/docs/tasks/tools/)
 - [Installed the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
