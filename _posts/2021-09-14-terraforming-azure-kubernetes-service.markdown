@@ -177,7 +177,7 @@ Hostname: web-79d88c97d6-hc4fz
 
 To make sure we don't accrue any unnecessary costs in Azure, we will delete the resource group. Instead of using the Azure CLI, we can use Terraform's own command for deprovisioning the configuration.
 ```
-terraform destroy 
+terraform destroy -auto-approve
 ```
 Ensure that you're in the folder you created the configuration in.
 
